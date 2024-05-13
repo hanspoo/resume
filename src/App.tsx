@@ -5,7 +5,7 @@ import { resume } from "./resume";
 function App() {
   console.log(JSON.stringify(resume));
   return (
-    <div className="container mx-auto py-16">
+    <div className="container mx-auto py-10" style={{ width: "21cm" }}>
       <Header />
       <Body />
       <footer className="mt-8 text-sm bg-slate-100 p-2">

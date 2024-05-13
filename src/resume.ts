@@ -91,7 +91,7 @@ const resume = {
   birthDate: " Oct 20, 1967",
   nationality: "Chileno",
   linkedin: "https://www.linkedin.com/in/hans-poo-4aa0b31b/",
-  objective: `All this years i’ve done muy best to be a complete IT professional, gain 
+  objective: `All this years i’ve done my best to be a complete IT professional, gain 
   expertise in all the aspects required in the field: developer, sysadmin, database admin, team leader, security expert, ux designer and more; 
   for this i’ve follow two roads: practice and books. 
   Linux advocate since 2000, and member of the free software movement in Chile, i have gave technical talks in free software conferences for many years. 
