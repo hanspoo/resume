@@ -25,7 +25,7 @@ function Experience({ experience }: { experience: Experience }) {
         <div>{experience.location}</div>
         <div>{experience.description}</div>
         {experience.since && (
-          <div>
+          <div className="mt-2">
             {experience.since} &rarr; {experience.to}
           </div>
         )}

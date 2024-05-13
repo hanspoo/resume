@@ -27,7 +27,7 @@ const experiences = [
                                pipelines.`,
   },
   {
-    position: "CTO",
+    position: "CTO and All",
     company: "WELINUX SPA",
     since: "Jun 2006",
     to: "Present",
@@ -59,9 +59,9 @@ const experiences = [
     the website of this governmment agency, they don't know how to give programming 
     qualities to the web pages: they were stuck in the search engine; so i was hired
      to solve this, at those days i found Perl 5 CGI and we begun to build with it. I was 
-     hired directly by SENCE as CTO at January 1998, we built many many thins, 
-     basically for the intranet we used Visual Basic and for the Internet Perl, 
-     the database server was Oracle running in Solaris.`,
+     hired directly by SENCE as CTO at January 1998, we built many many things, 
+     for the intranet we used Visual Basic (i was an Imperial Trooper at that time) and for the Internet Perl, 
+     the database server was Oracle running under Solaris.`,
   },
 ];
 
