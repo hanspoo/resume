@@ -20,11 +20,38 @@ const experiences = [
     to: "Present",
     position: "FULL STACK DEVELOPER",
     company: "FALABELLA",
-    description: `Full stack dev, internal solutions, software, middleware,
-                               some apps, all with nodejs, graphql, rest, typescript, and
-                               nx. Kafka connect management and administration. Develop
-                               grafana and prometheus based solutions. Some giltlab
-                               pipelines.`,
+    description: `My job as full stack was to search for solutions in areas where there where no clear solution or technology.`,
+    projects: [
+      {
+        name: "bff",
+        description:
+          "Develop middleware BFF to serve mobile apps, muxing and demuxing data to backend servers to present unified API, develop an internal react front end to manage it too.",
+        tools: ["typescript", "nodejs", "graphql", "jest", "antd", "react"],
+      },
+      {
+        name: "koala",
+        description:
+          "Develop software to manage, query and generate configuration of a series of technologies like kafa, grafana and prometheus. Secrets integration with vault, automated generation of dashboards and kafka connect REST API.",
+        tools: ["typescript", "nodejs", "graphql", "jest", "antd", "react"],
+      },
+      {
+        name: "polar",
+        description:
+          "Develop software to query financial operations in mainframes, local db2, keycloak and unixodbc keys of the solution, run the same code in linux and mainframe.",
+        tools: [
+          "docker",
+          "keycloak",
+          "unixodbc",
+          "db2",
+          "sqlite",
+          "typescript",
+          "nodejs",
+          "jest",
+          "antd",
+          "react",
+        ],
+      },
+    ],
   },
   {
     position: "CTO and All",
@@ -98,7 +125,7 @@ const resume = {
   This last three years i’ve met kafka and it has some way opened a new paradigm to build software. 
   This github project shows many things i'm doing now:
   
-  https://github.com / hanspoo/b2b-starter`,
+  https://github.com/hanspoo/b2b-starter`,
   skills,
   idioms: [
     {

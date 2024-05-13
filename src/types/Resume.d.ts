@@ -29,8 +29,14 @@ interface Experience {
   position: string;
   company: string;
   description: string;
+  projects: Project[];
 }
 
+interface Project {
+  name: string;
+  description: string;
+  tools: string[];
+}
 interface Idiom {
   language: string;
   level: string;
