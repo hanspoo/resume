@@ -26,18 +26,36 @@ const experiences = [
         name: "bff",
         description:
           "Develop middleware BFF to serve mobile apps, muxing and demuxing data to backend servers to present unified API, develop an internal react front end to manage it too.",
-        tools: ["typescript", "nodejs", "graphql", "jest", "antd", "react"],
+        tools: [
+          "typescript",
+          "nodejs",
+          "graphql",
+          "jest",
+          "antd",
+          "react",
+          "java",
+          "android",
+        ],
       },
       {
         name: "koala",
         description:
           "Develop software to manage, query and generate configuration of a series of technologies like kafa, grafana and prometheus. Secrets integration with vault, automated generation of dashboards and kafka connect REST API.",
-        tools: ["typescript", "nodejs", "graphql", "jest", "antd", "react"],
+        tools: [
+          "typescript",
+          "nodejs",
+          "graphql",
+          "jest",
+          "antd",
+          "react",
+          "prometheus",
+          "grafana",
+        ],
       },
       {
         name: "polar",
         description:
-          "Develop software to query financial operations in mainframes, local db2, keycloak and unixodbc keys of the solution, run the same code in linux and mainframe.",
+          "Develop software to query financial operations in mainframes, local db2, keycloak and unixodbc. Key of the solution, run the same code in linux and mainframe.",
         tools: [
           "docker",
           "keycloak",
@@ -58,7 +76,19 @@ const experiences = [
     company: "WELINUX SPA",
     since: "Jun 2006",
     to: "Present",
-
+    location: "Office - Remote",
+    tools: [
+      "perl",
+      "java8",
+      "postgreSQL",
+      "react native",
+      "react",
+      "antd",
+      "kafka",
+      "microaplicaciones",
+      "docker",
+      "kubernetes",
+    ],
     description: `At Welinux we have gone through several tech stacks,
     its early years with Perl, Linux and PostgreSQL, 
     then Java an jQuery, 
@@ -89,6 +119,7 @@ const experiences = [
      hired directly by SENCE as CTO at January 1998, we built many many things, 
      for the intranet we used Visual Basic (i was an Imperial Trooper at that time) and for the Internet Perl, 
      the database server was Oracle running under Solaris.`,
+    tools: ["perl", "visual basic", "oracle", "CGI"],
   },
 ];
 
@@ -121,8 +152,7 @@ const resume = {
   objective: `All this years i’ve done my best to be a complete IT professional, gain 
   expertise in all the aspects required in the field: developer, sysadmin, database admin, team leader, security expert, ux designer and more; 
   for this i’ve follow two roads: practice and books. 
-  Linux advocate since 2000, and member of the free software movement in Chile, i have gave technical talks in free software conferences for many years. 
-  This last three years i’ve met kafka and it has some way opened a new paradigm to build software. 
+  Linux advocate since 2000, i've been giving technical talks in free software conferences for many years. 
   This github project shows many things i'm doing now:
   
   https://github.com/hanspoo/b2b-starter`,

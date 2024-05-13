@@ -30,6 +30,7 @@ interface Experience {
   company: string;
   description: string;
   projects: Project[];
+  tools: string[];
 }
 
 interface Project {

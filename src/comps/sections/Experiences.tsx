@@ -3,6 +3,7 @@ import { RootState } from "../../redux/app/store";
 import { Section } from "../utils/Section";
 import { SectionSecondary } from "../utils/SectionSecondary";
 import { Project } from "./Project";
+import { Tools } from "./Tools";
 
 export function Experiences() {
   const { resume } = useSelector((state: RootState) => state.counter);
@@ -38,6 +39,7 @@ function Experience({ experience }: { experience: Experience }) {
         {experience.projects?.map((p) => (
           <Project project={p} />
         ))}
+        <Tools tools={experience.tools} />
       </>
     </SectionSecondary>
   );
