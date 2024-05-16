@@ -4,6 +4,7 @@
  - Proyecto que permite generar y descargar un curriculum de manera facil y gratis, optimizando para los filtros ATS.
 
 ## Para empezar
+ ### NX
   - Se debe tener instalado nx en la version 19 o superior.
   - Para revisar la version actual.
     ```sh
@@ -17,6 +18,13 @@
     ```sh
       npm add --global nx@latest
     ```
+ 
+ ### Antes de ejecutar 
+   
+  - Installar las dependencias.
+ ```sh
+      npm install
+  ```   
   ## Ejecutar el codigo en modo dev
   ```sh
       npx nx run resume:dev
