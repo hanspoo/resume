@@ -23,7 +23,6 @@ node_modules
 *.njsproj
 *.sln
 *.sw?
-
 # IDE - VSCode
 .vscode/*
 !.vscode/settings.json
