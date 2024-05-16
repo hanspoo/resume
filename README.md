@@ -1,17 +1,40 @@
 # Generador de Curriculum 
 
 ## Descripcion
-Proyecto que permite generar y descargar un curriculum de manera facil y gratis, optimizando para los filtros ATS.
+ - Proyecto que permite generar y descargar un curriculum de manera facil y gratis, optimizando para los filtros ATS.
 
+## Para empezar
+  - Se debe tener instalado nx en la version 19 o superior.
+  - Para revisar la version actual.
+    ```sh
+      npm list --global nx
+    ```
+  - En caso de tener una version anterior, es nesesario desinstalar.
+    ```sh
+      npm rm --global nx @nrwl/cli @nrwl/tao
+    ```
+  - Para installar la ultima version utilizar.
+    ```sh
+      npm add --global nx@latest
+    ```
+  ## Ejecutar el codigo en modo dev
+  ```sh
+      npx nx run resume:dev
+  ```
 
 ##  Stack
 
-- [![NX][nx-url]] -  Monorepo that provides tools and techniques for enhancing developer productivity, optimizing CI performance, and maintaining code quality 
-- [![Next][next-url]] - The web framework for content-driven websites.
-- [![Typescript][typescript-url]] - JavaScript with syntax for types.
-- [![Tailwind CSS][tailwind-url]]  - A utility-first CSS framework for rapidly building custom designs.
+- [![NX][nx-badge]][nx-url] -  Monorepo that provides tools and techniques for enhancing developer productivity, optimizing CI performance, and maintaining code quality 
+- [![Next][next-badge]][next-url] - The web framework for content-driven websites.
+- [![Typescript][typescript-badge]][typescript-url] - JavaScript with syntax for types.
+- [![Tailwind CSS][tailwind-badge]][tailwind-url]  - A utility-first CSS framework for rapidly building custom designs.
 
 [nx-url]: https://nx.dev/
 [next-url]:https://nextjs.org/
 [typescript-url]: https://www.typescriptlang.org/
 [tailwind-url]: https://tailwindcss.com/
+
+[nx-badge]:https://img.shields.io/badge/nx-143055?style=for-the-badge&logo=nx&logoColor=blue
+[next-badge]:https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=blue
+[typescript-badge]: https://img.shields.io/badge/Typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white&color=blue
+[tailwind-badge]: https://img.shields.io/badge/Tailwind-ffffff?style=for-the-badge&logo=tailwindcss&logoColor=38bdf8
