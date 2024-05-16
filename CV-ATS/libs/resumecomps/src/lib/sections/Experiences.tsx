@@ -1,18 +1,17 @@
-import { useSelector } from 'react-redux';
-import { RootState } from '../../redux/app/store';
 import { Section } from '../utils/Section';
 import { SectionSecondary } from '../utils/SectionSecondary';
 import { Project } from './Project';
 import { Tools } from './Tools';
 import { Experience } from '@cv-ats/models-types';
 
-export function Experiences() {
-  const { resume } = useSelector((state: RootState) => state.counter);
-  if (!resume) return <p>Resume not defined</p>;
+interface ExperiencesProps {
+  experiences: Experience[];
+}
+export function Experiences({ experiences }: ExperiencesProps) {
   return (
     <Section title="Experience">
       <ul>
-        {resume.experiences.map((experience: Experience) => (
+        {experiences.map((experience: Experience) => (
           <Experience experience={experience} />
         ))}
       </ul>

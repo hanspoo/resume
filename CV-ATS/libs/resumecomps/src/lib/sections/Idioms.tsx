@@ -1,15 +1,14 @@
-import { useSelector } from 'react-redux';
-import { RootState } from '../../redux/app/store';
 import { SectionSecondary } from '../utils/SectionSecondary';
 import { Idiom } from '@cv-ats/models-types';
 
-export function Idioms() {
-  const { resume } = useSelector((state: RootState) => state.counter);
-  if (!resume) return <p>Resume not defined</p>;
+interface IdiomsProps {
+  idioms: Idiom[];
+}
+export function Idioms({ idioms }: IdiomsProps) {
   return (
     <SectionSecondary title="Idioms">
       <ul>
-        {resume.idioms.map((idiom: Idiom) => (
+        {idioms.map((idiom: Idiom) => (
           <Idiom idiom={idiom} />
         ))}
       </ul>

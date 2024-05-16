@@ -1,1 +1,1 @@
-export * from './lib/resumecomps';
+export * from './lib/containerSeccions';

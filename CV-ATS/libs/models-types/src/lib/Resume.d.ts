@@ -29,8 +29,8 @@ export interface Experience {
   position: string;
   company: string;
   description: string;
-  projects: Project[];
-  tools: string[];
+  projects?: Project[];
+  tools?: string[];
 }
 
 export interface Project {
