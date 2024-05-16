@@ -24,7 +24,7 @@
 
 ##  Stack
 
-- [![react][react-badge][react-url]] - Build user interfaces out of individual pieces called components written in JavaScript.
+- [![react][react-badge]][react-url] - Build user interfaces out of individual pieces called components written in JavaScript.
 - [![NX][nx-badge]][nx-url] -  Monorepo that provides tools and techniques for enhancing developer productivity. 
 - [![Next][next-badge]][next-url] - The web framework for content-driven websites.
 - [![Typescript][typescript-badge]][typescript-url] - JavaScript with syntax for types.
