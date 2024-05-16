@@ -24,16 +24,19 @@
 
 ##  Stack
 
-- [![NX][nx-badge]][nx-url] -  Monorepo that provides tools and techniques for enhancing developer productivity, optimizing CI performance, and maintaining code quality 
+- [![react][react-badge][react-url]] - Build user interfaces out of individual pieces called components written in JavaScript.
+- [![NX][nx-badge]][nx-url] -  Monorepo that provides tools and techniques for enhancing developer productivity. 
 - [![Next][next-badge]][next-url] - The web framework for content-driven websites.
 - [![Typescript][typescript-badge]][typescript-url] - JavaScript with syntax for types.
 - [![Tailwind CSS][tailwind-badge]][tailwind-url]  - A utility-first CSS framework for rapidly building custom designs.
 
+[react-url]:https://es.react.dev/
 [nx-url]: https://nx.dev/
 [next-url]:https://nextjs.org/
 [typescript-url]: https://www.typescriptlang.org/
 [tailwind-url]: https://tailwindcss.com/
 
+[react-badge]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
 [nx-badge]:https://img.shields.io/badge/nx-143055?style=for-the-badge&logo=nx&logoColor=blue
 [next-badge]:https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=blue
 [typescript-badge]: https://img.shields.io/badge/Typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white&color=blue
