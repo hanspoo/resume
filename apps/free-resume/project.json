@@ -1,0 +1,9 @@
+{
+  "name": "free-resume",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/free-resume",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project free-resume --web",
+  "targets": {}
+}

@@ -15,8 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@cv-ats/models-types": ["libs/models-types/src/index.ts"],
-      "@cv-ats/resumecomps": ["libs/resumecomps/src/index.ts"]
+      "@free-resume/models-types": ["libs/models-types/src/index.ts"],
+      "@free-resume/redux-store": ["libs/redux-store/src/index.ts"],
+      "@free-resume/resumecomps": ["libs/resumecomps/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

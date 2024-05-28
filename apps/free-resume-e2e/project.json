@@ -1,0 +1,9 @@
+{
+  "name": "free-resume-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/free-resume-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["free-resume"],
+  "// targets": "to see all targets run: nx show project free-resume-e2e --web",
+  "targets": {}
+}
