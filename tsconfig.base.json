@@ -17,7 +17,9 @@
     "paths": {
       "@free-resume/models-types": ["libs/models-types/src/index.ts"],
       "@free-resume/redux-store": ["libs/redux-store/src/index.ts"],
-      "@free-resume/resumecomps": ["libs/resumecomps/src/index.ts"]
+      "@free-resume/resumecomps": ["libs/resumecomps/src/index.ts"],
+      "form-info-curriculum": ["libs/form-info-curriculum/src/index.ts"],
+      "formInfoCurriculum": ["libs/formInfoCurriculum/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
