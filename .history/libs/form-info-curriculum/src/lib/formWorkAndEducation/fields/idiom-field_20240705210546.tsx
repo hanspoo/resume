@@ -55,13 +55,8 @@ export function IdiomField({ idioms, setIdioms }: idiomFieldProps) {
                 onChange={(e) => handleInputChange(e, index)}
                 key={`idiom${index}`}
               >
-                <option value="" key={`leng-1`}></option>
-                {languages.map((leng, indexOpt) => {
-                  return (
-                    <option value={leng} key={`leng${indexOpt}`}>
-                      {leng}
-                    </option>
-                  );
+                {languages.map((leng) => {
+                  return <option value={leng}>{leng}</option>;
                 })}
               </Select>
             </FormControl>
@@ -73,15 +68,9 @@ export function IdiomField({ idioms, setIdioms }: idiomFieldProps) {
                 onChange={(e) => handleInputChange(e, index)}
                 key={`level${index}`}
               >
-                <option value="Basic" key={`basic${index}`}>
-                  Basic
-                </option>
-                <option value="Medium" key={`medium${index}`}>
-                  Medium
-                </option>
-                <option value="Advance" key={`advance${index}`}>
-                  Advance
-                </option>
+                <option value="Basic">Basic</option>
+                <option value="Medium">Medium</option>
+                <option value="Advance">Advance</option>
               </Select>
             </FormControl>
             <FormControl isRequired>

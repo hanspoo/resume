@@ -15,7 +15,7 @@ export function ContainerSeccions() {
   //if (!educations) return <p>Resume not defined</p>;
   return (
     <div className="bg-white p-4 m-4 text-blue-950 border-2 max-w-screen-lg">
-      <Header contactInfo={contactInfo} />
+      <Header />
       <div className="grid grid-flow-col gap-3">
         <div className="col-span-1">
           <Photo />

@@ -6,9 +6,8 @@ import { ExperienceField } from './fields/experience-field';
 import { EducationField } from './fields/education-field';
 import { useDispatch } from 'react-redux';
 import {
-  updateIdioms,
-  updateExperience,
-  updateEducation,
+  updateCarrerIdioms,
+  updateCarrerExperience,
 } from '@free-resume/redux-store';
 
 export function FormWorkEducation() {
@@ -25,10 +24,10 @@ export function FormWorkEducation() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log({ idioms, experiences, educations });
-    dispach(updateIdioms(idioms));
-    dispach(updateExperience(experiences));
+    dispach(updateCarrerIdioms(idioms));
+    dispach(updateCarrerExperience(experiences));
 
-    dispach(updateEducation(educations));
+    dispach(updateCarrerEducation(experiences));
   };
 
   return (

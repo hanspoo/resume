@@ -5,11 +5,6 @@ import { IdiomField } from './fields/idiom-field';
 import { ExperienceField } from './fields/experience-field';
 import { EducationField } from './fields/education-field';
 import { useDispatch } from 'react-redux';
-import {
-  updateIdioms,
-  updateExperience,
-  updateEducation,
-} from '@free-resume/redux-store';
 
 export function FormWorkEducation() {
   const [idioms, setIdioms] = useState<Idiom[]>([
@@ -21,15 +16,12 @@ export function FormWorkEducation() {
   const [educations, setEducations] = useState<Education[]>([
     { location: '', since: '', to: '', career: '', institution: '' },
   ]);
-  const dispach = useDispatch();
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log({ idioms, experiences, educations });
-    dispach(updateIdioms(idioms));
-    dispach(updateExperience(experiences));
-
-    dispach(updateEducation(educations));
   };
+  const dispach = useDispatch();
 
   return (
     <Box as="form" onSubmit={handleSubmit} p={8}>

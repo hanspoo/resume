@@ -5,7 +5,6 @@ import {
   Summary,
   Idiom,
   Experience,
-  Education,
 } from '@free-resume/models-types';
 
 const initialState: Resume = {
@@ -45,17 +44,14 @@ const resumeSlice = createSlice({
     updateCarrerSummary: (state, action: PayloadAction<Summary>) => {
       return { ...state, summary: { ...action.payload } };
     },
-    updateIdioms: (state, action: PayloadAction<Idiom[]>) => {
+    updateCarrerIdioms: (state, action: PayloadAction<Idiom[]>) => {
       return { ...state, idioms: [...state.idioms, ...action.payload] };
     },
-    updateExperience: (state, action: PayloadAction<Experience[]>) => {
+    updateCarrerExperience: (state, action: PayloadAction<Experience[]>) => {
       return {
         ...state,
         experiences: [...state.experiences, ...action.payload],
       };
-    },
-    updateEducation: (state, action: PayloadAction<Education[]>) => {
-      return { ...state, educations: [...state.educations, ...action.payload] };
     },
   },
 });
@@ -64,8 +60,7 @@ export const {
   updateResume,
   updateContactInfo,
   updateCarrerSummary,
-  updateIdioms,
-  updateExperience,
-  updateEducation,
+  updateCarrerIdioms,
+  updateCarrerExperience,
 } = resumeSlice.actions;
 export default resumeSlice.reducer;

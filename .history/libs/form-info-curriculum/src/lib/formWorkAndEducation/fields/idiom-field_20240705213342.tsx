@@ -55,7 +55,6 @@ export function IdiomField({ idioms, setIdioms }: idiomFieldProps) {
                 onChange={(e) => handleInputChange(e, index)}
                 key={`idiom${index}`}
               >
-                <option value="" key={`leng-1`}></option>
                 {languages.map((leng, indexOpt) => {
                   return (
                     <option value={leng} key={`leng${indexOpt}`}>
